@@ -12,7 +12,8 @@ namespace EmployeeWage
         {
             Console.WriteLine("Welcome to Employee Wage Computation Program:");
             //EmployeeAttendance.Check();
-            DailyWage.Calculate();
+            //DailyWage.Calculate();
+            PartTimeEmployee.WageCalculation();
             Console.ReadKey();
         }
     }
