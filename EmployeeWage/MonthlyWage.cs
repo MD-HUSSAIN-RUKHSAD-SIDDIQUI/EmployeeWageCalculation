@@ -41,10 +41,10 @@ namespace EmployeeWage
                 empWage = empHour * perHourRate;
                 totalEmpWage += empWage;
             }
-            Console.WriteLine("Per hour Rate:" + perHourRate);
-            Console.WriteLine("Total Working Days: " + totalWorkingDays);
-            Console.WriteLine("Total Working Hours: " + totalEmpHour);
-            Console.WriteLine("Total Employee Wage : " + totalEmpWage);
+            Console.WriteLine("Per hour Rate=" + perHourRate);
+            Console.WriteLine("Total Working Days=" + totalWorkingDays);
+            Console.WriteLine("Total Working Hours=" + totalEmpHour);
+            Console.WriteLine("Total Employee Wage =" + totalEmpWage);
         }
     }
 }
