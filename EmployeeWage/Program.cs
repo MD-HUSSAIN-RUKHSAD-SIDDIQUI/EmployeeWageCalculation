@@ -15,7 +15,8 @@ namespace EmployeeWage
             //DailyWage.Calculate();
             //PartTimeEmployee.WageCalculation();
             //SwitchCase.WageCalculation();
-            MonthlyWage.Calculation();
+            //MonthlyWage.Calculation();
+            WageTillCondition.Calculation();
             Console.ReadKey();
         }
     }
